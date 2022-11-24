@@ -667,3 +667,146 @@ li{
     }
 }
 
+
+
+/*prices page code*/
+
+.prices{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+
+
+    color: #fff;
+    font-family: var(--main-font);
+}
+
+
+.prices__title{
+    font-family: var(--second-font);
+    font-size: 48px;
+    margin-top: 80px;
+}
+
+.prices__items{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px 0;
+}
+.prices__item{
+    display: flex;
+    gap: 0 134px;
+    max-width: 1296px;
+    width: 100%;
+    align-items: center;
+}
+
+.prices__subitem{
+    display: flex;
+    max-width: 526px;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 83px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.prices__subitems{
+    max-width: 526px;
+    min-height: 473px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prices__subitem-left h2{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.prices__subitem-left h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.prices__subitem-right{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+/*medias*/
+@media (max-width: 1350px){
+    .prices{
+        padding: 0 40px;
+    }
+}
+@media (max-width: 1156px){
+    .prices__item img{
+        width: 60%;
+    }
+}
+@media (max-width: 1116px){
+    .prices__subitem{
+        flex-direction: column;
+    }
+
+    .prices__subitem-right{
+        padding-bottom: 10px;
+    }
+
+    .prices__item{
+        gap: 0 7%;
+    }
+}
+
+@media (max-width: 670px){
+    .prices__item{
+        flex-direction: column;
+        gap: 25px 0;
+    }
+
+    .prices__item img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 370px){
+    .prices__title{
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 280px){
+    .prices__subitem{
+        padding: 10px 0;
+    }
+}
+
+
+/*map page code*/ 
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map__title{
+    font-family: var(--second-font);
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 80px;
+}
+
+.map__img{
+    margin-top: 80px;
+    width: 100%;
+   
+}
